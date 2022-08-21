@@ -10,8 +10,8 @@
 :root{
   font-size: 62.5%;
   --color-01:#EBBA3C;
-  --color-02:#000000;
-  --color-03:#D9D9D9;
+  --color-02:#070606;
+  --color-03:#eeecec;
   --color-04: #FA9600;
   --fonte:'Nunito', sans-serif;
 }
@@ -117,12 +117,15 @@ body{
 }
 
 .banner .divisao-tela .descricao-desenho button {
-  width: 50%;
-  padding: 1.3rem 0;
+  width: 32%;
+  padding: 1rem 0;
   border-radius: 2rem;
   border: none;
-  font-weight: bold;
+  font-weight:bold;
   cursor: pointer;
+  margin-left: 5rem;
+  color: var(--color-02);
+  background: var(--color-03);
 }
 
 .banner .divisao-tela .imagem-desenho {
