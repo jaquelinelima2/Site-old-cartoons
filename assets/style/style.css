@@ -13,10 +13,11 @@
   font-size: 62.5%;
   --color-01:#EBBA3C;
   --color-02:#070606;
-  --color-03:#eeecec;
+  --color-03:#f3f0f0;
   --color-04: #FA9600;
   --gradient-button: linear-gradient(180deg, #B40000 0%, #D34C00 100%, #D34C00 100%);
   --fonte:'Nunito', sans-serif;
+  
 }
 
 body{
@@ -32,7 +33,7 @@ body{
 }
 
 section {
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 
 main header {
@@ -64,7 +65,7 @@ main header {
 }
 
 #home .menu-logo img{
-  width: 100px;
+  width: 10rem;
   padding-left: 2rem;
   filter: drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.25));
 
@@ -80,7 +81,7 @@ main header {
   text-decoration: none;
   color: var(--color-02);
   text-transform: uppercase;
-  font-size: 1.5rem ;
+  font-size: 1.6rem ;
   font-weight: bold;
   padding: 1rem 2rem;
   border-radius: 2rem;
@@ -95,6 +96,7 @@ main header {
   margin-right: 3rem;
   display: flex;
   gap: 0.5rem;
+ 
 }
 
 #home .campo-pesquisar input[type="search"] {
@@ -102,6 +104,8 @@ main header {
   border-radius: 2rem;
   background-color: var(--color-03);
   padding: .5rem 1rem;
+  outline-color: #FFBE5B;
+  
 }
 
 /* HOME - BANNER */
@@ -125,7 +129,7 @@ main header {
 
 .banner .divisao-tela .descricao-desenho {
   max-width: 500px;
-  width: 100%;
+  width: 44.4rem;
   display: flex;
   flex-direction: column;
   gap:1rem;
@@ -135,7 +139,7 @@ main header {
 }
 
 .banner .divisao-tela .descricao-desenho p {
-  letter-spacing: 1px;
+  letter-spacing: 0.1rem;
   line-height: 2rem;
 }
 
@@ -145,6 +149,7 @@ main header {
   border-radius: 2rem;
   border: none;
   font-weight:bold;
+  font-family: var(--fonte);
   cursor: pointer;
   color: var(--color-03);
   background: var(--gradient-button);
@@ -181,7 +186,7 @@ main .destaques-da-semana {
 
 main .destaques-da-semana header h2 {
   font-size: 3.062rem;
-  /* text-align: center;  centralizado ou não? */
+  /* text-align: center;  centralizado ou não? não centralizado, é left mesmo o Destaques da semana */
 }
 
 main .destaques-da-semana ul {
@@ -189,7 +194,7 @@ main .destaques-da-semana ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 2rem; /* Modificar tamanho */
+  margin-bottom: 1.6rem; /* Modificar tamanho */
 }
 
 .destaques-da-semana .content ul li a {
@@ -197,9 +202,10 @@ main .destaques-da-semana ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem; /* Modificar tamanho */
+  gap: 1.5rem; /* Modificar tamanho */
   text-decoration: none;
   color: var(--color-02);
+  font-weight:600;
 }
 
 .destaques-da-semana .content .div-button {
@@ -212,6 +218,7 @@ main .destaques-da-semana ul {
   border: none;
   padding: 1rem 3rem;
   border-radius: 2rem;
+  font-family: var(--fonte);
   font-weight:bold;
   cursor: pointer;
   color: var(--color-03);
@@ -223,6 +230,8 @@ main .destaques-da-semana ul {
 
 .curiosidades .content header h2 {
   text-align: center;
+  font-size: 3.812rem;
+  
 }
 
 .historia-desenhos {
@@ -230,7 +239,14 @@ main .destaques-da-semana ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
+  gap: 4rem;
+  font-size: 1.6rem;
+  text-align: justify;
+}
+
+.historia-desenhos h3{
+  padding-bottom: 1.5rem;
+  font-size: 2rem;
 }
 
 .historia-desenhos .desenho-1 {
@@ -242,6 +258,10 @@ main .destaques-da-semana ul {
   /* flex: 1; */
   flex-basis: 200px 200px;
   background-color: gray;
+  width: 40.5rem;
+  height: 26.4rem;
+  filter: drop-shadow(-20px 23px 2px rgba(157, 151, 151, 0.4));
+
 }
 
 .historia-desenhos .desenho-1 .texto {
