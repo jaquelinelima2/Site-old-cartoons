@@ -23,6 +23,8 @@
 body{
   font-size: 1.5rem;
   font-family: var(--fonte);
+  background-image: url(/assets/images/background-pattern.png);
+  
 }
 
 .wrapper {
@@ -116,7 +118,7 @@ main header {
   /* min-width: 500px;
   max-height: 500px;
   min-height: 500px;   */
-  background: radial-gradient(82.8% 82.8% at 50% 17.2%, #FFBE5B 1.91%, #FA9600 100%);
+  background: radial-gradient(82.8% 82.8% at 50% 17.2%, #C52300 1.91%, rgba(3, 3, 1, 0.92) 100%);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(2px -2px 9px hsla(0, 0%, 0%, 0.16));
 }
 
@@ -136,11 +138,14 @@ main header {
 }
 .banner .divisao-tela .descricao-desenho h2 {
   font-size: 5rem;
+  color: #FFC700;
 }
 
 .banner .divisao-tela .descricao-desenho p {
   letter-spacing: 0.1rem;
   line-height: 2rem;
+  color:#E5E5E5;
+  text-align: justify;
 }
 
 .banner .divisao-tela .descricao-desenho button {
@@ -185,7 +190,7 @@ main .destaques-da-semana {
 }
 
 main .destaques-da-semana header h2 {
-  font-size: 3.062rem;
+  font-size: 3.812rem;
   /* text-align: center;  centralizado ou não? não centralizado, é left mesmo o Destaques da semana */
 }
 
@@ -207,6 +212,7 @@ main .destaques-da-semana ul {
   color: var(--color-02);
   font-weight:600;
 }
+
 
 .destaques-da-semana .content .div-button {
   width: 100%;
@@ -230,7 +236,7 @@ main .destaques-da-semana ul {
 
 .curiosidades .content header h2 {
   text-align: center;
-  font-size: 3.812rem; 
+  font-size: 3.062rem; 
 }
 
 .historia-desenhos {
