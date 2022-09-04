@@ -12,7 +12,7 @@
 :root{
   font-size: 62.5%;
   --color-01:#EBBA3C;
-  --color-02:#070606;
+  --color-02:#350F00;
   --color-03:#f3f0f0;
   --color-04: #FA9600;
   --gradient-button: linear-gradient(180deg, #B40000 0%, #D34C00 100%, #D34C00 100%);
@@ -191,6 +191,7 @@ main .destaques-da-semana {
 
 main .destaques-da-semana header h2 {
   font-size: 3.812rem;
+  color: var(--color-02);
   /* text-align: center;  centralizado ou não? não centralizado, é left mesmo o Destaques da semana */
 }
 
@@ -237,6 +238,7 @@ main .destaques-da-semana ul {
 .curiosidades .content header h2 {
   text-align: center;
   font-size: 3.062rem; 
+  color: var(--color-02);
 }
 
 .historia-desenhos {
@@ -252,6 +254,7 @@ main .destaques-da-semana ul {
 .historia-desenhos h3{
   padding-bottom: 1.5rem;
   font-size: 2rem;
+  color: var(--color-02);
 }
 
 .historia-desenhos .desenho-1 {
