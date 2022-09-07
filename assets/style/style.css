@@ -287,3 +287,46 @@ main .destaques-da-semana ul {
   max-width: 500px;
   width: 100%;
 }
+
+/* RODAPÉ */
+
+.container-footer{
+  height: 20rem;
+  background-color: var(--color-02);
+  padding: 4rem;
+}
+
+.container-footer p{
+  display: flex;
+  color: var(--color-06);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+  justify-content: center; 
+}
+
+.container-footer__ul{
+  display: flex;
+  flex-direction:row;
+  gap: 1.5rem;  
+  justify-content: center;
+}
+
+@media(max-width:800px){
+  .container-footer__ul{
+   flex-direction: column;
+   align-items: center;
+  }
+ }
+
+.container-footer__ul li{
+  list-style-type: none;
+}
+
+.container-footer__ul li a{
+  text-decoration: none;
+  color: var(--color-01);
+}
+
+
+
