@@ -47,6 +47,7 @@ nav {
     display: flex;
     gap: 1rem;
     list-style: none;
+    
 }
 
 .menu .menu-lista li a {
@@ -80,7 +81,7 @@ nav {
 /* Footer */
 
 .container-footer {
-    height: 20rem;
+    height: 17rem;
     background-color: var(--color-02);
     padding: 4rem;
 }

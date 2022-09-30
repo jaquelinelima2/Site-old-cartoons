@@ -1,0 +1,29 @@
+
+
+.sobre-container{
+  display: flex;
+  flex-direction: row;
+  height: 40rem;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.sobre-container_article{
+  width: 36rem;
+}
+
+.sobre-container_article h1{
+font-size: 4.8rem;
+}
+
+.sobre-container_article p{
+  text-align: center;
+  margin-top: 0.7rem;
+  }
+
+.sobre-container img{
+  width: 400px;
+  border-radius: 50rem;
+  filter: drop-shadow(-10px 13px 2px rgba(157, 151, 151, 0.4));
+}
