@@ -1,12 +1,13 @@
 .banner {
-    background-color:var(--color-04);
-    background-image: url('../images/banner-oldcartoons-page2.png');
+    background-image: url('../images/banner-pag-old-cartoons.png');
     height: 20rem; /* Modificar */
     background-repeat: repeat-x;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--color-02);
+    color: var(--color-03);
+    font-size: 2.4rem;
+    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
 }
 
 main {
@@ -58,8 +59,13 @@ main {
 
 .container-anos .image-anos {
     display: flex;
+    align-items: center;
 }
 
 .image-anos, .image-anos figure, .image-anos figure img {
     width: 100%;
+}
+
+.botao-next{
+    height: 5rem;
 }
