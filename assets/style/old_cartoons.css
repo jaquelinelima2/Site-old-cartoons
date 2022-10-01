@@ -1,18 +1,19 @@
 .banner {
-    background-color: rgba(0, 0, 255, 0.542);
+    background-color:var(--color-04);
     background-image: url('../images/banner-oldcartoons-page2.png');
     height: 20rem; /* Modificar */
     background-repeat: repeat-x;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: var(--color-02);
 }
 
 main {
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
-    margin-block: 6rem; 
+    margin-block: 7rem; 
 }
 
 .container-anos {
@@ -27,13 +28,15 @@ main {
 
 .container-anos h2 {
     margin-right: 1rem; /* Modificar */
-    font-size: 3.1rem;
+    font-size: 3.8rem;
     font-weight:bolder;
+    color: var(--color-04);
+    text-shadow:2px 2px 1px var(--color-02);
 }
 
 .container-anos .line {
     display: inline-block;
-    width: 86%;
+    width: 83%;
     height: .1rem;
     background-color: var(--color-01);
 }
@@ -44,6 +47,13 @@ main {
     height: 1rem;
     border-radius: 50%;
     background-color: var(--color-05);
+}
+
+.container-anos .line-anos-2000{
+    display: inline-block;
+    width: 78%;
+    height: .1rem;
+    background-color: var(--color-01);
 }
 
 .container-anos .image-anos {
