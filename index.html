@@ -1,202 +1,188 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/style/index.css" />
-    <link
-      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./assets/style/global.css" />
-    <title>Old Cartoons</title>
-  </head>
-  <body>
-    <nav>
-      <div class="menu">
-        <a href="#" class="menu-logo">
-          <img src="./assets/images/logo.png" alt="Logo old cartoons" />
-        </a>
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./src/css/global.css" />
+    <link rel="stylesheet" href="./src/css/componente-nav.css" />
+    <link rel="stylesheet" href="./src/css/componente-footer.css" />
+    <link rel="stylesheet" href="./src/css/index.css" />
+    <title>Old Cartoons | Home</title>
+</head>
 
-        <ul class="menu-lista">
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="/Pages/old_cartons.html">Old cartoons</a>
-          </li>
-          <li>
-            <a href="#">Curiosidades</a>
-          </li>
-          <li>
-            <a href="/Pages/sobre.html">Sobre</a>
-          </li>
-        </ul>
-      </div>
-      <form class="campo-pesquisar">
-        <input
-          type="search"
-          name="pesquisar"
-          id="input-pesquisar"
-          placeholder="pesquisar"
-        />
-        <a href="#">
-          <img
-            src="./assets/images/search.png"
-            alt="icone representativo de uma lupa."
-          />
-        </a>
-      </form>
+<body>
+    <nav class="menu-agrupamento">
+        <div class="menu-logo-lista-container">
+            <a href="./index.html" class="menu-logo-link">
+                <img src="./src/images/logo.png" alt="Logo old cartoons" class="menu-logo-img" />
+            </a>
+
+            <ul class="menu-lista">
+                <li class="menu-lista-item">
+                    <a href="./index.html" class="menu-lista-item-link">Home</a>
+                </li>
+
+                <li class="menu-lista-item">
+                    <a href="./src/pages/old_cartons.html" class="menu-lista-item-link">Old cartoons</a>
+                </li>
+
+                <li class="menu-lista-item">
+                    <a href="./src/pages/curiosidades.html" class="menu-lista-item-link">Curiosidades</a>
+                </li>
+
+                <li class="menu-lista-item">
+                    <a href="./src/pages/sobre.html" class="menu-lista-item-link">Sobre</a>
+                </li>
+            </ul>
+        </div>
+        <form class="menu-pesquisar-container">
+            <label for="pesquisar" class="menu-pesquisar-label" title="pesquisar">
+                <input type="search" placeholder="Pesquise por algo" id="pesquisar" class="menu-pesquisar-input">
+                <button class="menu-pesquisar-button-icon">
+                    <i class='bx bx-search menu-pesquisar-icon'></i>
+                </button>
+            </label>
+        </form>
     </nav>
 
-    <header id="home">
-      <div class="banner">
-        <div class="wrapper">
-          <div class="divisao-tela">
-            <div class="descricao-desenho">
-              <h2>
-                Augie Doggie <br />
-                and Doggie Daddy
-              </h2>
-              <p>
-                Dois carismáticos personagens de desenho animado do universo
-                Hanna-Barbera, que estrearam na TV no dia 29 de setembro de
-                1959, como coadjuvantes do show The Quick Draw McGraw Show, do
-                Pepe Legal...
-              </p>
-              <button>Continue lendo</button>
+    <header class="banner">
+        <div class="banner-container container">
+            <div class="banner-content">
+                <h2 class="banner-content-titulo">Augie Doggie and Doggie Daddy</h2>
+                <p class="banner-content-paragrafo">It is a long established fact that a reader will be distracted by
+                    the
+                    readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has
+                    a
+                    more-or-less normal...</p>
+                <button class="banner-content-button">continue lendo</button>
             </div>
-            <figure class="imagem-desenho">
-              <img
-                src="./assets/images/um-cachorro-sentado-no-sofa.png"
-                alt="Na imagem contém dois cachorros, um está sentado no sofá lendo jornal e o outro parado em frente ao cachorro que está no sofa, ele está com os olhos fechados sorrindo."
-              />
+
+            <figure class="banner-figure-container">
+                <img src="./src/images/um-cachorro-sentado-no-sofa.png"
+                    alt="Um cachorro sentando no sofá lendo jornal com seu neto a a sua frente." class="banner-img">
             </figure>
-          </div>
         </div>
-      </div>
     </header>
 
-    <main>
-      <section class="destaques-da-semana">
-        <div class="wrapper">
-          <div class="content">
-            <header>
-              <h2>Destaques da semana</h2>
+    <main class="principal">
+        <section class="destaques-da-semana">
+            <header class="destaques-da-semana-header">
+                <h2 class="destaques-da-semana-header-titulo">Destaques da semana</h2>
             </header>
-            <ul class="lista-destaque">
-              <li>
-                <a href="#"
-                  ><img src="assets/images/img_circle_cavernaDoDragao.png" />
-                  <p>Caverna do Dragão</p></a
-                >
-              </li>
-              <li>
-                <a href="#"
-                  ><img src="assets/images/img_circle_coragemCaoCovarde.png" />
-                  <p>Coragem o Cão Covarde</p></a
-                >
-              </li>
-              <li>
-                <a href="#"
-                  ><img src="assets/images/img_circle_flintstones.png" />
-                  <p>Flintstones</p></a
-                >
-              </li>
-              <li>
-                <a href="#"
-                  ><img src="assets/images/img_circle_tom_jerry.png" />
-                  <p>Tom & Jerry</p></a
-                >
-              </li>
+
+            <ul class="destaques-da-semana-lista">
+                <li class="destaques-da-semana-lista-item">
+                    <a href="#" class="destaques-da-semana-lista-link">
+                        <img src="./src/images/img_circle_cavernaDoDragao.png" class="destaques-da-semana-lista-img" />
+                        <p class="destaques-da-semana-lista-paragrafo">Caverna do Dragão</p>
+                    </a>
+                </li>
+                <li class="destaques-da-semana-lista-item">
+                    <a href="#" class="destaques-da-semana-lista-link">
+                        <img src="./src/images/img_circle_coragemCaoCovarde.png"
+                            class="destaques-da-semana-lista-img" />
+                        <p class="destaques-da-semana-lista-paragrafo">Coragem o Cão Covarde</p>
+                    </a>
+                </li>
+                <li class="destaques-da-semana-lista-item">
+                    <a href="#" class="destaques-da-semana-lista-link">
+                        <img src="./src/images/img_circle_flintstones.png" class="destaques-da-semana-lista-img" />
+                        <p class="destaques-da-semana-lista-paragrafo">Flintstones</p>
+                    </a>
+                </li>
+                <li class="destaques-da-semana-lista-item">
+                    <a href="#" class="destaques-da-semana-lista-link">
+                        <img src="./src/images/img_circle_tom_jerry.png" class="destaques-da-semana-lista-img" />
+                        <p class="destaques-da-semana-lista-paragrafo">Tom & Jerry</p>
+                    </a>
+                </li>
             </ul>
 
-            <div class="div-button">
-              <button>Veja mais</button>
-            </div>
-          </div>
-        </div>
-      </section>
+            <button class="destaques-da-semana-button">Veja mais</button>
+        </section>
 
-      <section class="curiosidades">
-        <div class="wrapper">
-          <div class="content">
-            <header>
-              <h2>Curiosidades</h2>
+        <section class="curiosidades">
+            <header class="curiosidades-header">
+                <h2 class="curiosidades-header-titulo">Curiosidades</h2>
             </header>
 
-            <div class="historia-desenhos">
-              <div class="desenho-1">
-                <figure>
-                  <img src="/assets/images/imagem_01.png" />
-                </figure>
-                <div class="texto">
-                  <h3>O Pequeno Urso (1995)</h3>
-                  <p>
-                    Little Bear's Adventures, ou, se você preferir, “O Pequeno
-                    Urso”. Foi criado por Maurice Sendak, Jeff Goode e Else
-                    Holmelund Minarik. O desenho foi baseado no livro criado
-                    justamente por Else Holmelund Minarik, e ilustrado por
-                    Maurice Sendak. Na TV Cultura, a estreia do desenho foi em 3
-                    de novembro de 1997, tornando-se um dos desenhos clássicos
-                    mais lembrados a ser exibido pelo canal.
-                  </p>
-                  <a
-                    href="https://hqscomcafe.com.br/2016/08/01/o-pequeno-urso/"
-                    target="_blank"
-                    rel="external"
-                    >Leia a matéria completa no Hqs com Café</a
-                  >
-                </div>
-              </div>
-              <div class="desenho-1">
-                <figure>
-                  <img src="/assets/images/imagem_02.png" />
-                </figure>
-                <div class="texto">
-                  <h3>O Gato Félix (1919-1953)</h3>
-                  <p>
-                    O Gato Félix apareceu pela primeira vez em 9 de novembro de
-                    1919. Apesar disso, não se sabe ao certo quem criou o
-                    desenho. O australiano Pat Sullivan defendeu até morrer, em
-                    1933, que tinha sido ele o criador. Assim como o
-                    norte-americano Otto Messmer — que trabalhava para Sullivan.
-                  </p>
-                  <a
-                    href="https://www.guiadoscuriosos.com.br/cultura-e-entretenimento/desenhos/gato-felix/"
-                    target="_blank"
-                    rel="external"
-                    >Leia a matéria completa no Guia dos Curiosos</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer class="container-footer">
-      <div class="wrapper">
-        <p>Nos siga em nossas redes Sociais</p>
-        <ul class="container-footer__ul">
-          <li>
-            <a href="#">
-              <i class="bx bxl-instagram-alt"></i>
-              oldcartoons_ficticio
-            </a>
-          </li>
-          <li>
-            <a href="#"
-              ><i class="bx bxl-facebook-circle"></i> oldcartoons_ficticio</a
-            >
-          </li>
-          <li>
-            <a href="#"><i class="bx bxl-youtube"></i> oldcartoons_ficticio</a>
-          </li>
-        </ul>
-      </div>
-    </footer>
+            <ul class="curiosidades-desenhos-resumo">
+                <li class="curiosidades-desenhos-resumo-desenho-item">
+                    <figure class="curiosidades-desenhos-resumo-desenho-item-figure">
+                        <img src="./src/images/imagem_01.png"
+                            class="curiosidades-desenhos-resumo-desenho-item-figure-img" />
+                    </figure>
 
-    <script src="/assets/script/script.js"></script>
-  </body>
+                    <div class="curiosidades-desenhos-resumo-desenho-conteudo">
+                        <h3 class="curiosidades-desenhos-resumo-desenho-conteudo-titulo">O Pequeno Urso (1995)</h3>
+                        <p class="curiosidades-desenhos-resumo-desenho-conteudo-paragrafo">
+                            Little Bear's Adventures, ou, se você preferir, “O Pequeno
+                            Urso”. Foi criado por Maurice Sendak, Jeff Goode e Else
+                            Holmelund Minarik. O desenho foi baseado no livro criado
+                            justamente por Else Holmelund Minarik, e ilustrado por
+                            Maurice Sendak. Na TV Cultura, a estreia do desenho foi em 3
+                            de novembro de 1997, tornando-se um dos desenhos clássicos
+                            mais lembrados a ser exibido pelo canal.
+                        </p>
+                        <a href="https://hqscomcafe.com.br/2016/08/01/o-pequeno-urso/" target="_blank" rel="external"
+                            class="curiosidades-desenhos-resumo-desenho-conteudo-link">
+                            Leia a matéria completa no Hqs com Café
+                        </a>
+                    </div>
+                </li>
+
+                <li class="curiosidades-desenhos-resumo-desenho-item">
+                    <figure class="curiosidades-desenhos-resumo-desenho-item-figure">
+                        <img src="./src/images/imagem_02.png"
+                            class="curiosidades-desenhos-resumo-desenho-item-figure-img" />
+                    </figure>
+
+                    <div class="curiosidades-desenhos-resumo-desenho-conteudo">
+                        <h3 class="curiosidades-desenhos-resumo-desenho-conteudo-titulo">O Gato Félix (1919-1953)</h3>
+                        <p class="curiosidades-desenhos-resumo-desenho-conteudo-paragrafo">
+                            O Gato Félix apareceu pela primeira vez em 9 de novembro de
+                            1919. Apesar disso, não se sabe ao certo quem criou o
+                            desenho. O australiano Pat Sullivan defendeu até morrer, em
+                            1933, que tinha sido ele o criador. Assim como o
+                            norte-americano Otto Messmer — que trabalhava para Sullivan.
+                        </p>
+                        <a href="https://hqscomcafe.com.br/2016/08/01/o-pequeno-urso/" target="_blank" rel="external"
+                            class="curiosidades-desenhos-resumo-desenho-conteudo-link">
+                            Leia a matéria completa no Hqs com Café
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <p class="footer-paragrafo">Nos siga em nossas redes sociais</p>
+            <ul class="footer-lista-social">
+                <li class="footer-lista-social-item">
+                    <a href="#" class="footer-lista-social-item-link">
+                        <i class="bx bxl-instagram-alt"></i>
+                        oldcartoons_ficticio
+                    </a>
+                </li>
+                <li class="footer-lista-social-item">
+                    <a href="#" class="footer-lista-social-item-link">
+                        <i class="bx bxl-facebook-circle"></i>
+                        oldcartoons_ficticio
+                    </a>
+                </li>
+                <li class="footer-lista-social-item">
+                    <a href="#" class="footer-lista-social-item-link">
+                        <i class="bx bxl-youtube"></i>
+                        oldcartoons_ficticio
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="./src/script/script.js"></script>
+</body>
 </html>

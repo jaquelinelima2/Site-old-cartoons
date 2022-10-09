@@ -1,0 +1,171 @@
+/* HOME - BANNER */
+.banner {
+  width: 100%;
+  height: auto; 
+  background: radial-gradient(82.8% 82.8% at 50% 17.2%, #C52300 1.91%, rgba(3, 3, 1, 0.92) 100%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(2px -2px 9px hsla(0, 0%, 0%, 0.16));
+  padding: 1rem;
+}
+
+.banner .banner-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  padding: 2rem 0;
+}
+
+.banner-container .banner-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.banner-content .banner-content-titulo {
+  font-size: 4.8rem;
+  color:var(--color-01);
+}
+
+.banner-content .banner-content-paragrafo {
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
+  color:var(--color-06);
+  text-align: justify;
+  font-size: 1.6rem;
+  font-weight: 200;  
+}
+
+.banner-content .banner-content-button {
+  width: 50%;
+  padding: 1rem 0;
+  border-radius: 2rem;
+  border: none;
+  font-weight:bold;
+  font-family: var(--fonte);
+  cursor: pointer;
+  color: var(--color-03);
+  background: var(--gradient-button);
+  filter: drop-shadow(0px 3px 4px #00000033);
+  text-transform: uppercase;
+}
+
+.banner-figure-container {
+  width: 50%;
+}
+
+.banner-img {
+  width: 50rem;
+}
+
+/*---HOME-PÁGINA PRINCIPAL*/
+
+.principal {
+  width: 100%;
+  margin-block: 4rem;
+}
+
+.principal .destaques-da-semana {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.destaques-da-semana-header .destaques-da-semana-header-titulo {
+  font-size: 3.8rem;
+  color: var(--color-02);
+  margin-bottom: 2rem;
+}
+
+.destaques-da-semana-lista {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.6rem;
+}
+
+.destaques-da-semana-lista .destaques-da-semana-lista-item .destaques-da-semana-lista-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.destaques-da-semana-lista-link .destaques-da-semana-lista-paragrafo {
+  font-size: 1.6rem;
+  color: var(--color-05);
+  font-weight:600;
+}
+
+.destaques-da-semana-button {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  font-family: var(--fonte);
+  font-weight:bold;
+  cursor: pointer;
+  color: var(--color-03);
+  background: var(--gradient-button);
+  filter: drop-shadow(0px 3px 4px #00000033);
+}
+
+/* SESSÃO CURIOSIDADES  */
+
+.curiosidades {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.curiosidades .curiosidades-header {
+  margin-bottom: 2rem;
+}
+
+.curiosidades .curiosidades-header .curiosidades-header-titulo {
+  text-align: center;
+  font-size: 3.8rem; 
+  color: var(--color-02);
+}
+
+.curiosidades .curiosidades-desenhos-resumo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.curiosidades-desenhos-resumo .curiosidades-desenhos-resumo-desenho-item {
+  display: flex;
+  gap: 2rem;
+}
+
+.curiosidades-desenhos-resumo-desenho-item .curiosidades-desenhos-resumo-desenho-item-figure {
+  flex: 1;
+  height: auto;
+  filter: drop-shadow(-18px 21px 2px rgba(157, 151, 151, 0.4));
+}
+
+.curiosidades-desenhos-resumo-desenho-item-figure 
+.curiosidades-desenhos-resumo-desenho-item-figure-img {
+  width: 100%;
+}
+
+.curiosidades-desenhos-resumo-desenho-item .curiosidades-desenhos-resumo-desenho-conteudo {
+  flex: 2;
+}
+
+.curiosidades-desenhos-resumo-desenho-item .curiosidades-desenhos-resumo-desenho-conteudo 
+.curiosidades-desenhos-resumo-desenho-conteudo-titulo {
+  margin-bottom: 2rem;
+  font-size: 2.4rem;
+  color: var(--color-05);
+}
+
+.curiosidades-desenhos-resumo-desenho-item .curiosidades-desenhos-resumo-desenho-conteudo 
+.curiosidades-desenhos-resumo-desenho-conteudo-paragrafo {
+  margin-bottom: 0.5rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
