@@ -1,0 +1,63 @@
+.banner {
+  background-image: url('../images/banner-pag-old-cartoons.png');
+  height: 18rem; 
+  background-repeat: repeat-x;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-03);
+  font-size: 2.4rem;
+  text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
+}
+
+
+.guia-de-navegacao{
+  margin: 2rem 0 3rem 8rem;
+
+}
+
+.grid-container-principal{
+  display: grid;
+  grid-column: 1fr 1fr;
+  grid-template-areas: "main-artigo-principal curiosidades-top-tres";
+  gap: 20rem;
+  max-width: 1200px; 
+  margin: auto;
+}
+
+.main-artigo-principal p{
+  margin-top: 1rem;
+}
+
+.curiosidades-top-tres{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-01);
+  height: 52rem;
+  padding: 2rem 1rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.container-secundario-artigos-sugeridos{
+ display: flex;
+ margin: auto;
+ gap: 2rem;
+ ;
+}
+
+.curiosidades-artigos-sugeridos{
+  display: flex;
+  flex-direction: column;
+}
+
+.curiosidades-artigos-sugeridos h2{
+  text-align: center;
+}
+
+.card-artigo-sugeridos{
+ display: flex;
+ background-color: var(--color-03);
+ gap: 2rem;
+ align-items: center;
+}
