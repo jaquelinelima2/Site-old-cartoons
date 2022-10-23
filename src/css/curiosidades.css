@@ -83,6 +83,10 @@
   border-radius: 1rem;
 }
 
+.card-artigo-sugeridos img{
+  border-radius: 1rem;
+}
+
 .titulo-artigos-sugeridos {
   grid-area: titulo-artigos-sugeridos;
   margin-top: 5rem;
