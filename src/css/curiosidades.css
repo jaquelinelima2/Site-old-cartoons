@@ -28,10 +28,30 @@
   max-width: 1200px; 
   margin: auto;
 }
+  @media(max-width:800px){
+    .grid-container-principal{
+    grid-template-columns: 350px;
+    grid-template-areas: "main-artigo-principal"
+    "curiosidades-top-tres";  
+     justify-content: center;   
+    }
+   }
+  
 
 .main-artigo-principal p{
   margin-top: 1rem;
 }
+
+.main-artigo-principal img{
+  width:770px;
+  height: 417px;
+}
+
+ @media(max-width:800px){
+    .main-artigo-principal img{
+       width:100%;
+    }
+   }
 
 .main-artigo-principal a{
   color: var(--color-04);
@@ -72,6 +92,14 @@
   gap: 4rem 2rem;
   margin: 0 auto 6rem;
 }
+
+@media(max-width:800px){
+.container-secundario-artigos-sugeridos{
+      grid-template-columns: 350px;
+        grid-template-areas: "titulo-artigos-sugeridos";
+        justify-content: center;
+    }
+   }
 
 .card-artigo-sugeridos{
   display: flex;

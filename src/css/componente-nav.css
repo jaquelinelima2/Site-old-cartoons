@@ -6,12 +6,15 @@
     align-items: center;
 }
 
+
 .menu-agrupamento .menu-logo-lista-container {
     width: 100%;
     display: flex;
     align-items: center;
     gap: 3rem;
 }
+
+
 
 .menu-logo-lista-container .menu-logo-img {
     width: 10rem;
@@ -23,6 +26,15 @@
     display: flex;
     gap: 1rem;
 }
+
+@media(max-width:800px){
+.menu-agrupamento, .menu-logo-lista-container, .menu-lista{
+       flex-direction: column;
+       align-items: center;
+       gap: 1rem;
+    }
+   }
+
  
 .menu-lista-item .menu-lista-item-link {
     text-decoration: none;
