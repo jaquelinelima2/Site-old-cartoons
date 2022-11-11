@@ -59,7 +59,7 @@
   height: 417px;
 }
 
- @media(max-width:800px){
+  @media(max-width:1200px){
     .main-artigo-principal img{
        width:100%;
        height: auto;
@@ -82,10 +82,30 @@
   border-radius: 1rem;
 }
 
- @media(max-width:800px){
-   .curiosidades-top-tres{
-      height: auto;
+  @media(max-width:1200px){
+    .curiosidades-top-tres{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-01);
+    height: 25rem;
+    padding: 3rem 0.5rem;
+    text-align: center;
+    border-radius: 1rem;
+  }
+    .curiosidades-top-tres-cards{
+      display: flex;
     }
+    }
+
+  @media(max-width:800px){
+    .curiosidades-top-tres{
+        height: auto;
+    }
+
+   .curiosidades-top-tres-cards{
+    display: flex;
+    flex-direction: column;
+  }
    }
 
 
@@ -113,21 +133,21 @@
   margin: 0 auto 6rem;
 }
 
-@media(max-width:1200px){
-.container-secundario-artigos-sugeridos{
-      grid-template-columns: repeat(2,40rem);
-        grid-template-areas: "titulo-artigos-sugeridos titulo-artigos-sugeridos";
-        justify-content: center;
+  @media(max-width:1200px){
+  .container-secundario-artigos-sugeridos{
+        grid-template-columns: repeat(2,40rem);
+          grid-template-areas: "titulo-artigos-sugeridos titulo-artigos-sugeridos";
+          justify-content: center;
+      }
     }
-   }
 
-@media(max-width:800px){
-.container-secundario-artigos-sugeridos{
-      grid-template-columns: 35rem;
-        grid-template-areas: "titulo-artigos-sugeridos";
-        justify-content: center;
+  @media(max-width:850px){
+  .container-secundario-artigos-sugeridos{
+        grid-template-columns: 35rem;
+          grid-template-areas: "titulo-artigos-sugeridos";
+          justify-content: center;
+      }
     }
-   }
 
 .card-artigo-sugeridos{
   display: flex;
@@ -143,15 +163,15 @@
   border-radius: 1rem;
 }
 
- @media(max-width:800px){
-   .card-artigo-sugeridos{
-      height: auto;}
+  @media(max-width:850px){
+    .card-artigo-sugeridos{
+        height: auto;}
 
-    .card-artigo-sugeridos img{
-    width: 20rem;
-    height: 13rem;
-    margin: auto;
-  }
+      .card-artigo-sugeridos img{
+      width: 20rem;
+      height: 13rem;
+      margin: auto;
+    }
    
 }
 

@@ -27,7 +27,7 @@
     gap: 1rem;
 }
 
-@media(max-width:800px){
+@media(max-width:880px){
 .menu-agrupamento, .menu-logo-lista-container, .menu-lista{
        flex-direction: column;
        align-items: center;

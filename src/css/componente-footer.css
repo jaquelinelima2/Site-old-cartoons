@@ -11,9 +11,9 @@
     justify-content: center;
   }
   
-  @media(max-width:800px){
+  @media(max-width:850px){
     .container-footer{
-    height: 30rem;
+    height: 25rem;
     background-color: var(--color-02);
     padding: 2.2rem;
     }
