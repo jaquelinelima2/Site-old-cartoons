@@ -10,6 +10,13 @@
     text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
 }
 
+@media(max-width:800px){
+ .banner{
+    font-size: 2rem;
+    text-align: center;    
+    }
+}
+
 main {
     max-width: 1000px;
     width: 100%;
@@ -27,6 +34,13 @@ main {
     margin-block: 2rem; /* Modificar */
 }
 
+@media(max-width:800px){
+ .container-anos header{
+     display: flex;
+     margin-left: 2rem;
+    }
+}
+
 .container-anos h2 {
     margin-right: 1rem; /* Modificar */
     font-size: 3.8rem;
@@ -35,11 +49,24 @@ main {
     text-shadow:2px 2px 1px var(--color-02);
 }
 
+@media(max-width:800px){
+ .container-anos h2{
+     margin-right: 2rem;
+     width: 200px;
+}
+}
+
 .container-anos .line {
     display: inline-block;
     width: 83%;
     height: .1rem;
     background-color: var(--color-01);
+}
+
+@media(max-width:800px){
+ .container-anos .line{
+     width: 215px;     
+    }
 }
 
 .container-anos .circle {
@@ -50,6 +77,14 @@ main {
     background-color: var(--color-05);
 }
 
+@media(max-width:800px){
+ .container-anos .circle{
+     margin-right:2rem;
+     width: 1rem;
+     height: 0.7em;
+    }
+}
+
 .container-anos .line-anos-2000{
     display: inline-block;
     width: 78%;
@@ -57,9 +92,33 @@ main {
     background-color: var(--color-01);
 }
 
+@media(max-width:800px){
+ .container-anos .line-anos-2000{
+     width: 210px;
+    }
+}
+
+.container-anos .image-anos a {
+    cursor: pointer;
+}
+
 .container-anos .image-anos {
     display: flex;
     align-items: center;
+}
+
+@media(max-width:800px){
+ .container-anos .image-anos{
+    display: grid;
+    grid-template-columns:  23rem 23rem;
+    margin-left: 1rem;
+    }
+}
+
+.container-anos button{
+   border-radius: 60%;
+   border: none;
+   cursor: pointer;
 }
 
 .image-anos, .image-anos figure, .image-anos figure img {
