@@ -15,6 +15,20 @@
   padding: 2rem 0;
 }
 
+@media(max-width:800px){
+ .banner{
+  height: 35rem;    
+    }
+
+  .banner .banner-container {
+  height: 35rem;
+  align-items: center;
+  gap: 0;
+  padding: 0rem 0;
+}
+
+}
+
 .banner-container .banner-content {
   width: 50%;
   display: flex;
@@ -32,6 +46,43 @@
   line-height: 2rem;
   color:var(--color-06);
   font-size: 1.6rem;
+}
+
+.banner-content .banner-content-paragrafo-2 {
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
+  color:var(--color-06);
+  font-size: 1.6rem;
+  display: none;
+}
+
+@media(max-width:800px){
+ .banner-content .banner-content-titulo {
+  font-size: 2.4rem;
+  color:var(--color-01);
+  width: 25rem;
+  margin-left: 1rem;
+}
+
+  .banner-content .banner-content-paragrafo {
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
+  color:var(--color-06);
+  font-size: 1.2rem;
+  display: none;
+  margin-left: 1rem;
+}
+
+.banner-content .banner-content-paragrafo-2 {
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
+  color:var(--color-06);
+  font-size: 1.6rem;
+  display:flex;
+  margin-left: 1rem;
+}
+
+
 }
 
 .banner-content .banner-content-button {
@@ -54,6 +105,13 @@
 
 .banner-img {
   width: 50rem;
+}
+
+@media(max-width:800px){
+ .banner-img {
+  width: 17rem;
+}
+
 }
 
 /*---HOME-PÁGINA PRINCIPAL*/
@@ -80,6 +138,23 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1.6rem;
+}
+
+@media(max-width:800px){
+ .destaques-da-semana-lista {
+  display: grid;
+  column-gap: 6rem;
+  row-gap: 3rem;
+  justify-content: center;
+  grid-template-columns: 100px 100px;
+  margin-bottom: 2rem;
+}
+
+.destaques-da-semana-lista img{
+  width: 15rem;
+}
+
+
 }
 
 .destaques-da-semana-lista .destaques-da-semana-lista-item .destaques-da-semana-lista-link {
