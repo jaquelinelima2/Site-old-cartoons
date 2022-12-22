@@ -3,7 +3,7 @@
 .sobre-container{
   display: flex;
   flex-direction: row;
-  height: 40rem;
+  height: 50rem;
   justify-content: center;
   align-items: center;
   gap: 5rem;
