@@ -18,7 +18,7 @@
 }
 
 main {
-    max-width: 1000px;
+    max-width:1000px;
     width: 100%;
     margin: 0 auto;
     margin-block: 7rem; 
@@ -110,8 +110,8 @@ main {
 @media(max-width:800px){
  .container-anos .image-anos{
     display: grid;
-    grid-template-columns:  23rem 23rem;
-    margin-left: 1rem;
+    grid-template-columns:  17.5rem 17.5rem;
+    justify-content: center;   
     }
 }
 
