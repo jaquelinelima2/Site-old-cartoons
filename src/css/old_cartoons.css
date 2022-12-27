@@ -87,14 +87,14 @@ main {
 
 .container-anos .line-anos-2000{
     display: inline-block;
-    width: 73%;
+    width: 78%;
     height: .1rem;
     background-color: var(--color-01);
 }
 
 @media(max-width:800px){
  .container-anos .line-anos-2000{
-     width: 210px;
+     width: 200px;
     }
 }
 
