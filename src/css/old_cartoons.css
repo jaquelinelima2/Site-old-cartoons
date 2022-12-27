@@ -110,8 +110,9 @@ main {
 @media(max-width:800px){
  .container-anos .image-anos{
     display: grid;
-    grid-template-columns:  17.5rem 17.5rem;
-    justify-content: center;   
+    grid-template-columns:  16rem 16rem;
+    justify-content: center;
+    
     }
 }
 
