@@ -87,7 +87,7 @@ main {
 
 .container-anos .line-anos-2000{
     display: inline-block;
-    width: 78%;
+    width: 73%;
     height: .1rem;
     background-color: var(--color-01);
 }
